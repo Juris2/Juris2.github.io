@@ -111,3 +111,9 @@ select {
 .col-xs-6 select {
     max-width: 100%;
 }
+
+#bildiite1, #bildiite2, #bildiite3, #bildiite4, #bildiite5, #bildiite6 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
