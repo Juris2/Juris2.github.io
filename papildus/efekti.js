@@ -77,4 +77,14 @@ $(document).ready(function(){
 
 
 
+$("#googleMap").googleMap();
+    $("#googleMap").addMarker({
+      coords: [56.9359921, 24.16445580000004], // GPS coords
+      url: 'http://www.tiloweb.com', // Link to redirect onclick (optional)
+      id: 'marker1' // Unique ID for your marker
+    });
+
+
+
+
 });

@@ -117,3 +117,14 @@ select {
     margin-left: 0px;
     margin-bottom: 10px;
 }
+
+.pusrinda {
+    max-width: 600px;
+    margin:10px auto;
+}
+
+
+#googleMap {
+    width: 600px;
+    margin:10px auto;
+}
