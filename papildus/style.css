@@ -128,3 +128,10 @@ select {
     width: 600px;
     margin:10px auto;
 }
+.palabi {
+    float: right!important;
+}
+
+.modal-footer {
+    margin-top: 10px;
+}
