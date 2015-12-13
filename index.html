@@ -51,8 +51,8 @@
             <li class = "dropdown">
                <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"><img src = "http://orig13.deviantart.net/621b/f/2010/330/9/e/profile_icon_by_art311-d33mwsf.png" height = "20px" width = "20px"> <b class = "caret"></b></a>
                <ul class = "dropdown-menu">
-                  <li><a href = "https://www.draugiem.lv/">Profils</a></li>
-                  <li><a href = "https://www.facebook.com/">Izlogoties</a></li>
+                  <li><a href = "./profils.html">Profils</a></li>
+                  <li><a href = "#">Izlogoties</a></li>
                </ul>
             </li>
 
@@ -204,12 +204,100 @@
 
                      </div>
 
-                  <a class = "palabi" href = "#"><p>Reģistrējies šeit!</p></a>
+                  <a data-dismiss = "modal" class = "palabi" data-toggle = "modal" href = "#registracija" id = "regis"><p>Reģistrējies šeit!</p></a>
 
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Aizvērt</button>
                     <button type="submit" class="btn btn-primary">Pieslēgties</button>
+                </div>
+                </form>
+                </div><!-- /.modal-content -->
+             </div><!-- /.modal-dialog -->
+       </div><!-- /.modal -->
+
+
+
+        <div id = "registracija" class="modal fade" tabindex="-1" role="dialog" style = "overflow-y:scroll">
+             <div class="modal-dialog">
+                <div class="modal-content">
+                 <form class = "form-horizontal" method = "post">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Reģistrācija:</h4>
+                  </div>
+                <div class="modal-body">
+
+
+                    <div class = "form-group">
+                        <label class = "col-lg-2 control-label">Vārds: </label>
+                        <div class = "col-lg-10">
+                            <input type = "text" class = "form-control" id = "reg-vards" placeholder = "Vārds">  
+                        </div>
+                     </div>
+
+                     <div class = "form-group">
+                        <label class = "col-lg-2 control-label">Uzvārds: </label>
+                        <div class = "col-lg-10">
+                            <input type = "text" class = "form-control" id = "reg-uzvards" placeholder = "Uzvārds">  
+                        </div>
+                     </div>
+
+                     <div class = "form-group">
+                        <label class = "col-lg-2 control-label">E-pasts: </label>
+                        <div class = "col-lg-10">
+                            <input type = "email" class = "form-control" id = "reg-epasts" placeholder = "Latvija@inbox.lv">  
+                        </div>
+                     </div>
+
+                     <div class = "form-group">
+                        <label class = "col-lg-2 control-label">Parole: </label>
+                        <div class = "col-lg-10">
+                            <input type = "password" class = "form-control" id = "reg-parole" placeholder = "parole">  
+                        </div>
+
+                     </div>
+
+                     <div class = "form-group">
+                        <label class = "col-lg-2 control-label">Dzimums: </label>
+                         <label class = "col-lg-2 control-label">Vīrietis: </label>
+                        <div class = "col-lg-2">
+                            <input type = "radio" class = "form-control" id = "reg-virietis" name = "dzimums">
+                        </div>
+                         <label class = "col-lg-2 control-label">Sieviete: </label>
+                        <div class = "col-lg-2">
+                            <input type = "radio" class = "form-control" id = "reg-sieviete" name = "dzimums">
+                        </div>
+                     </div>
+
+                     <div class="form-group">
+                       <label class = "col-lg-2 control-label" for="sel1">Vecums:</label>
+                       <div class = "col-lg-10">
+                       <select class="form-control" id="sel1">
+                         <option></option>
+                         <option>18</option>
+                         <option>19</option>
+                         <option>20</option>
+                         <option>21</option>
+                         <option>+</option>
+                       </select>
+                       </div>
+
+
+                     </div>
+
+                     <div class="form-group">
+                       <label class = "col-lg-6 control-label" for="sel1">Piekrītu lietošanas noteikumiem:</label>
+                          <div class = "col-lg-1">
+                              <input type = "checkbox" class = "form-control" id = "reg-noteikumi">
+                          </div>
+                     </div>
+                  
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" id = "reg-btn-reg">Aizvērt</button>
+                    <button type="submit" class="btn btn-primary" id = "reg-btn-reg">Reģistrēties</button>
                 </div>
                 </form>
                 </div><!-- /.modal-content -->

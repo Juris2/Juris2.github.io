@@ -40,7 +40,7 @@
 }
 
 .navbar {
-    min-width: 350px;
+    min-width: 420px;
       
 }
 
@@ -134,4 +134,13 @@ select {
 
 .modal-footer {
     margin-top: 10px;
+}
+
+#pieslegshanas {
+    margin-right: 10px;
+}
+
+.modal-open {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
 }
