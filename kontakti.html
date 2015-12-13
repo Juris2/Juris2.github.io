@@ -110,7 +110,7 @@
 
           <p class = "navbar-text">Site built by Juris Jenerts</p>
 
-          <a class="btn btn-primary navbar-btn navbar-right">Pieslēgties</a>
+          <a href = "#pieslegshanas" data-toggle = "modal" class="btn btn-primary navbar-btn navbar-right">Pieslēgties</a>
 
           <a href = "https://www.youtube.com/watch?v=LG8d0O9MS1E" class="btn btn-danger navbar-btn navbar-right" target = "_BLANK">Vēlies noklausīties Latvijas himnu?</a>
         </div>
@@ -166,6 +166,46 @@
             </div> 
           </div>
        </div>
+
+
+
+
+      <div id = "pieslegshanas"class="modal fade" tabindex="-1" role="dialog">
+             <div class="modal-dialog">
+                <div class="modal-content">
+                 <form class = "form-horizontal" method = "post">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Pieslēgšanās portālā:</h4>
+                  </div>
+                <div class="modal-body">
+
+                     <div class = "form-group">
+                        <label class = "col-lg-2 control-label">E-pasts: </label>
+                        <div class = "col-lg-10">
+                            <input type = "email" class = "form-control" id = "piesl-epasts" placeholder = "Latvija@inbox.lv">  
+                        </div>
+                     </div>
+
+                     <div class = "form-group">
+                        <label class = "col-lg-2 control-label">Parole: </label>
+                        <div class = "col-lg-10">
+                            <input type = "password" class = "form-control" id = "piesl-parole" placeholder = "parole">  
+                        </div>
+
+                     </div>
+
+                  <a class = "palabi" href = "#"><p>Reģistrējies šeit!</p></a>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Aizvērt</button>
+                    <button type="submit" class="btn btn-primary">Pieslēgties</button>
+                </div>
+                </form>
+                </div><!-- /.modal-content -->
+             </div><!-- /.modal-dialog -->
+       </div><!-- /.modal -->
 
 
 
