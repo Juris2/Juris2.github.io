@@ -160,3 +160,15 @@ select {
 a#brand.navbar-brand.navbar-left {
     margin-left: -5px;
 }
+
+.prfilvards {
+    margin-left: 15px; 
+    background: #C0C0C0;
+    max-width: 200px;
+    text-align: center;
+}
+
+.profillapa {
+    min-width: 700px;
+
+}
