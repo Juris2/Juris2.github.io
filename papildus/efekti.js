@@ -86,12 +86,5 @@ $("#googleMap").googleMap();
 
 
 
-$("#regis").click(function(){
-	$("body").css("overflow", "hidden");
-});
-
-$("#reg-btn-reg").click(function(){
-	$("body").css("overflow", "auto");
-});
 
 });

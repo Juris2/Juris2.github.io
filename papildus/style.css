@@ -144,3 +144,11 @@ select {
     padding-right: 0 !important;
     margin-right: 0 !important;
 }
+
+#reg-virietis, #reg-sieviete, #reg-noteikumi {
+    margin-top: 7px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
