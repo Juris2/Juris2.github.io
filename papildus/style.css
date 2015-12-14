@@ -152,3 +152,11 @@ select {
 ::-webkit-scrollbar { 
     display: none; 
 }
+
+.navbar-brand {
+    padding: 3px 3px;
+}
+
+a#brand.navbar-brand.navbar-left {
+    margin-left: -5px;
+}
