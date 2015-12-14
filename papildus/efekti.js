@@ -8,6 +8,9 @@ $(document).ready(function(){
 	$("#bildiite5").hide();
 	$("#bildiite6").hide();
 	$("#tests").hide();
+	$(".labojumi").hide();
+	$(".list").hide();
+
 
 
 	$("#PW1").keyup(function(e){
@@ -75,6 +78,38 @@ $(document).ready(function(){
 			
 	});
 
+	$("#ttt").click(function(){
+			
+			$(".labojumi").show();
+			
+			
+	});
+
+	$("#ddd").click(function(){
+			
+			$(".labojumi").hide();
+			
+			
+	});
+
+
+	    $('#komentet').click(function(){
+	    	$(".list").show();
+        var toAdd = $('textarea[name=checkListItem]').val();
+        $('.list').append('<div class="list2">' + toAdd + '</div>');
+        });
+
+        $('#pluss').click(function(){
+	    	 $('#komentars').addClass('highlighted'); 
+	    	 $('.virsraksts').addClass('highlighted'); 
+        });
+
+        $('#minuss').click(function(){
+	    	$('#komentars').removeClass('highlighted'); 
+	    	$('.virsraksts').removeClass('highlighted'); 
+        });
+
+
 
 
 $("#googleMap").googleMap();
@@ -87,4 +122,19 @@ $("#googleMap").googleMap();
 
 
 
+
+
 });
+
+function changeText(){
+	document.getElementById('prof-vards').innerHTML = 'Juris';
+}
+
+function changeText2(){
+	var userInput1 = document.getElementById('userInput1').value;
+	document.getElementById('location').innerHTML = userInput1;
+	var userInput2 = document.getElementById('userInput2').value;
+	document.getElementById('education').innerHTML = userInput2;
+	var userInput3 = document.getElementById('userInput3').value;
+	document.getElementById('ieteikumi').innerHTML = userInput3;
+}
